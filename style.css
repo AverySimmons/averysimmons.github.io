@@ -142,6 +142,10 @@ a {
     margin-bottom: 2%;
 }
 
+.project__link:hover {
+    border-color: #dcdcaa;
+}
+
 .project__body {
     padding-right: 10%;
     display: flex;
@@ -193,6 +197,10 @@ a {
     color: #dcdcaa;
 }
 
+.project__footer__link:hover {
+    border-bottom: 2px #dcdcaa solid;
+}
+
 .small-projects__row {
     display: flex;
     justify-content: space-evenly;
@@ -202,6 +210,13 @@ a {
 
 .small__project {
     display: block;
+    opacity: 0.3;
+    width: 30%;
+    height: auto;
+}
+
+.small__project:hover {
+    opacity: 1;
 }
 
 .small__project__title {
