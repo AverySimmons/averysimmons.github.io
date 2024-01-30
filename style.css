@@ -160,7 +160,7 @@ a {
 
 .project__title {
     color: #96d2e6;
-    font-size: 1.9em;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -270,11 +270,11 @@ a {
     font-size: 1.5em;
 }
 
-/* #main-projects {
-
+#main-projects {
+    margin-bottom: 15%;
 }
 
-#pacman__project {
+/* #pacman__project {
 
 }
 
@@ -288,11 +288,11 @@ a {
 
 #bot__project {
 
-}
+} */
 
 #graph__project {
-
-} */
+    margin-bottom: 0%;
+}
 
 
 #outro {
