@@ -207,6 +207,11 @@ a {
 
 .outro__link {
     margin-left: 20%;
+    border-bottom: 2px transparent solid;
+}
+
+.outro__link:hover {
+    border-bottom: 2px #c8c8c8 solid;
 }
 
 /*--------------------------------------*/
@@ -250,7 +255,7 @@ a {
     width: 35%;
     height: auto;
     border-radius: 7%;
-    filter: drop-shadow(3px -3px 10px rgb(85, 85, 85));
+    filter: drop-shadow(3px -3px 10px rgb(16, 16, 16));
 }
 
 
@@ -302,7 +307,7 @@ a {
 }
 
 #outro__made-by {
-    width: 35%;
+    width: auto;
 }
 
 #outro__links {
