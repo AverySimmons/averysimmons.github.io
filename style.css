@@ -254,7 +254,7 @@ a {
     object-fit: contain;
     width: 35%;
     height: auto;
-    border-radius: 7%;
+    border-radius: 40px;
     filter: drop-shadow(3px -3px 10px rgb(16, 16, 16));
 }
 
