@@ -54,28 +54,30 @@
     position: relative;
 }
 
-.animate__slide-in {
-    animation: slide-in linear;
-    animation-timeline: view(90% -7%);
-}
+@media screen and (min-width: 600px) {
+    .animate__slide-in {
+        animation: slide-in linear;
+        animation-timeline: view(90% -7%);
+    }
 
-.animate__slide-out {
-    animation: slide-out linear;
-    animation-timeline: view(-7% 90%);
-}
+    .animate__slide-out {
+        animation: slide-out linear;
+        animation-timeline: view(-7% 90%);
+    }
 
-.animate__fade-in {
-    animation: fade-in 1.8s ease-in;
-}
+    .animate__fade-in {
+        animation: fade-in 1.8s ease-in;
+    }
 
-.animate__typed {
-    overflow: hidden;
-    border-right: 0.15em solid #c197d3;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.15em;
-    animation: typing linear;
-    animation-timeline: view(-50% -7%);
+    .animate__typed {
+        overflow: hidden;
+        border-right: 0.15em solid #c197d3;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.15em;
+        animation: typing linear;
+        animation-timeline: view(-50% -7%);
+    }
 }
 
 /*--------------------------------------*/
@@ -315,4 +317,64 @@ a {
     margin-right: 10%;
     display: flex;
     justify-content: right;
+}
+
+@media screen and (max-width: 600px) {
+    .project__arrow {
+        display: none;
+    }
+
+    .project__link {
+        display: block;
+        padding-left: 10%;
+    }
+
+    .project__body {
+        padding-right: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project__right-side {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    #intro__body {
+        font-size: 1.4em;
+    }
+
+    #intro__text {
+        padding-left: 0%;
+    }
+
+    #background__title__text {
+        margin-left: 5%;
+    }
+
+    .background__paragraph {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1em;
+    }
+
+    #outro__made-by {
+        width: 40%;
+        font-size: 0.8em;
+    }
+
+    #outro__links {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10%;
+        display: flex;
+        justify-content: right;
+        width: 30%;
+        font-size: 0.7em;
+    }
+
 }
